@@ -1,0 +1,17 @@
+Redis命令参考网站:http://doc.redisfans.com/index.html
+1.查看redis中所有的键
+  scan 0
+2. 清空当前数据库中的所有 key
+  flushdb
+3.清空整个 Redis 服务器的数据(删除所有数据库的所有 key )
+  flushall
+
+一.String类型操作
+  1.set k1 1
+  2.get k1
+  3.incr k1  将 key 中储存的数字值增一
+  4.decr k1  将 key 中储存的数字值减一
+  5.append k1 123 将key中存储的值末尾追加‘123’ 并返回追加后的字符长度
+  6.setbit a 1 1  对 key 所储存的字符串值，设置或清除指定偏移量上的位(bit)。
+  7.getbit a 1    执行6后 结果是 1
+  8.bitcount a    查询所有 setbit x 1/0 的总数数
