@@ -1,4 +1,4 @@
-Redis命令参考网站:http://doc.redisfans.com/index.html
+﻿Redis命令参考网站:http://doc.redisfans.com/index.html
 1.查看redis中所有的键
   scan 0
 2. 清空当前数据库中的所有 key
@@ -15,3 +15,4 @@ Redis命令参考网站:http://doc.redisfans.com/index.html
   6.setbit a 1 1  对 key 所储存的字符串值，设置或清除指定偏移量上的位(bit)。
   7.getbit a 1    执行6后 结果是 1
   8.bitcount a    查询所有 setbit x 1/0 的总数数
+  9.
